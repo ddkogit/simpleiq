@@ -6,12 +6,13 @@
     background-color: white;
     cursor: pointer;
     font-weight: bold;
+    transition: background-color 0.5s ease-in-out;
 }
 
 .secondary{
-    border: 2px solid var(--blue);
+    border: 1px solid var(--blue);
     color: black;
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
 }
 
 .primary{
@@ -23,7 +24,7 @@
     background-color: black;
 }
 .secondary:hover{
-    background-color: black;
-    color: white;
-    border: none;
+    background-color: rgb(200, 200, 214);
+    /* color: white; */
+    /* border: none; */
 }

@@ -9,29 +9,43 @@ import Testpage from "./pages/Testpage";
 function App() {
 
 const [questions, setQuestions] = useState(null)
+const [randomQuestions, setRandomQuestions] = useState([]);
+const [totalpoint, setTotalpoint] = useState(0);
 
-  useEffect(() => {
-    fetch("/questions.json")
-      .then((response) => response.json())
-      .then((questions) => setQuestions(questions))
-      .catch((error) => console.log("error occred"));
-  }, []);
+useEffect(() => {
+  fetch("/questions.json")
+    .then((response) => response.json())
+    .then((questions) => {
+      setQuestions(questions);
+      const shuffled = shuffleArray([...questions]);
+      const selectedQuestions = shuffled.slice(0, 20);
+      setRandomQuestions(selectedQuestions);
+    })
+    .catch((error) => console.log("error occurred"));
+}, []);
+
+
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
 
 
 
-  const handleStart = () => {
-    
-  };
+
 
   return (
     <>
   
 
-      <Navbar />
+      <Navbar  />
       <Routes>
 
         <Route path="/" element={<Homepage />} />
-        <Route path="/testpage" element={<Testpage />} />
+        <Route path="/testpage" element={<Testpage randomQuestions={randomQuestions} />} />
       </Routes>
     
     </>

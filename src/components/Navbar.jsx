@@ -3,6 +3,14 @@ import Button from "./Button";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 const Navbar = () => {
+  
+  const handleCopyLink =()=>{
+    navigator.clipboard.writeText("https://simpleiq.vercel.app/");
+
+        
+  }
+
+
   return (
     <nav className="navbar">
       <div    className="logo">
@@ -17,10 +25,10 @@ const Navbar = () => {
           </div>
       <div className="navmenu">
         <Link>
-          <Button text="Share Link" type="secondary" />
+          <Button handleClick={handleCopyLink} text="Share Link" type="secondary" />
         </Link>
         <Link to="/testpage">
-          <Button text="Start Test" type="primary" />
+          <Button text="Start Test" type="primary" handleClick={handleCopyLink} />
         </Link>
       </div>
     </nav>
