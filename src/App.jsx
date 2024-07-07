@@ -5,6 +5,7 @@ import Homepage from "./pages/Homepage";
 import { Routes, Route } from "react-router-dom";
 import Testpage from "./pages/Testpage";
 import Footer from "./components/Footer";
+import Success from "./pages/Success";
 
 
 function App() {
@@ -42,10 +43,11 @@ function shuffleArray(array) {
     <>
   
 
-    <h2>{totalpoint}</h2>
+    
       <Navbar  />
       <Routes>
         <Route path="/" element={<Homepage />} />
+        <Route path="/success" element={<Success />} />
         <Route path="/testpage" element={<Testpage randomQuestions={randomQuestions} totalpoint={totalpoint} setTotalpoint={setTotalpoint} />} />
       </Routes>
       <Footer />

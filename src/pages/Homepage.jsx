@@ -10,11 +10,13 @@ const Homepage = () => {
       </h1>
     <section className='rules'>
     <ul>
+
       <li>There are 20 questions in random difficulty.</li>
       <li>Select one right answer out of four options.</li>
       <li>Submit and get your  Score for free.</li>
-      <li>This is not certiied IQ test but will help you get estimate</li>
+      <li>This is not certified IQ test but will help you get estimate</li>
       <li>In future we will update the site with learning material and different tests.</li>
+      <li>Please only play this one time and share with friends.</li>
     </ul>
     </section>
     <Link  to="/testpage">

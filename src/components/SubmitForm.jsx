@@ -2,21 +2,40 @@ import React, { useEffect, useState } from "react";
 import "./SubmitForm.css";
 import Button from "./Button";
 import  emailjs from "emailjs-com"
+import { useNavigate } from "react-router-dom";
 
 const SubmitForm = ({ totalpoint }) => {
+
+  const navigate = useNavigate();
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     totalpoint:totalpoint,
+    iqPoints: "",
     
   });
   useEffect(() => {
     setFormData(prevFormData => ({
       ...prevFormData,
       totalpoint: totalpoint,
+      iqPoints: estimateIQRange(totalpoint), 
     }));
   }, [totalpoint]);
   
+  
+  const estimateIQRange = (totalpoint) => {
+    
+    if (totalpoint >= 19) {
+      return "105 and above";
+    } else if (totalpoint >= 14) {
+      return "85-100";
+    } else if (totalpoint >= 9) {
+      return "70-85";
+    } else {
+      return "Below 70";
+    }
+  };
 
   const handleChange =(e)=>{
     const {name, value} = e.target;
@@ -41,7 +60,11 @@ const SubmitForm = ({ totalpoint }) => {
     .catch((error) => {
       console.error('Error:', error);
     });
-    console.log("clicked")
+
+    navigate("/")
+
+    
+   
   };
 
     
