@@ -3,14 +3,14 @@ import Navbar from '../components/Navbar'
 import SingleQuestion from '../components/SingleQuestion'
 import "./Testpage.css"
 
-const Testpage = ({randomQuestions}) => {
+const Testpage = ({randomQuestions,totalpoint,setTotalpoint}) => {
   return (
     <div className='testmain'>
       <ol>
 
    {randomQuestions && randomQuestions.map((items)=>(
      <div key={items.id}>
-      <SingleQuestion item={items} />
+      <SingleQuestion setTotalpoint={setTotalpoint} item={items} totalpoint={totalpoint}/>
       
     </div>
    ))}

@@ -41,11 +41,11 @@ function shuffleArray(array) {
     <>
   
 
+    <h2>{totalpoint}</h2>
       <Navbar  />
       <Routes>
-
         <Route path="/" element={<Homepage />} />
-        <Route path="/testpage" element={<Testpage randomQuestions={randomQuestions} />} />
+        <Route path="/testpage" element={<Testpage randomQuestions={randomQuestions} totalpoint={totalpoint} setTotalpoint={setTotalpoint} />} />
       </Routes>
     
     </>

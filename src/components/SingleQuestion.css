@@ -5,4 +5,20 @@
 
 .options{
     margin-top: 10px;
+
 }
+
+.radios{
+    cursor: pointer;
+    
+}
+
+
+.radios:disabled {
+    color: rgb(175, 9, 9);
+  }
+  
+  .disabled-label {
+    color: rgb(19, 4, 4);
+  }
+  
