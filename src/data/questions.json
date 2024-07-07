@@ -1,0 +1,363 @@
+[
+    {
+      "id": 1,
+      "question": "Complete the analogy: Cat is to meow as dog is to ___?",
+      "options": ["Bark", "Purr", "Tweet", "Roar"],
+      "answer": "Bark"
+    },
+    {
+      "id": 2,
+      "question": "Which word does not belong in the group: apple, banana, orange, desk?",
+      "options": ["Apple", "Banana", "Orange", "Desk"],
+      "answer": "Desk"
+    },
+    {
+      "id": 3,
+      "question": "What is the opposite of the word 'begin'?",
+      "options": ["End", "Start", "Finish", "Cease"],
+      "answer": "End"
+    },
+    {
+      "id": 4,
+      "question": "Rearrange the letters 'SAPLE' to form a common English word.",
+      "options": ["Apple", "Pleas", "Sale", "Lapse"],
+      "answer": "Apple"
+    },
+    {
+      "id": 5,
+      "question": "What is the square root of 144?",
+      "options": ["10", "12", "14", "16"],
+      "answer": "12"
+    },
+    {
+      "id": 6,
+      "question": "Who developed the theory of relativity?",
+      "options": ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Stephen Hawking"],
+      "answer": "Albert Einstein"
+    },
+    {
+      "id": 7,
+      "question": "If a car travels at an average speed of 60 miles per hour, how far will it travel in 3 hours?",
+      "options": ["120 miles", "160 miles", "180 miles", "200 miles"],
+      "answer": "180 miles"
+    },
+    {
+      "id": 8,
+      "question": "What is the chemical symbol for gold?",
+      "options": ["Ag", "Au", "Pt", "Hg"],
+      "answer": "Au"
+    },
+    {
+      "id": 9,
+      "question": "Identify the odd one out: blue, green, square, red.",
+      "options": ["Blue", "Green", "Square", "Red"],
+      "answer": "Square"
+    },
+    {
+      "id": 10,
+      "question": "What is the next number in the sequence: 2, 4, 8, 16, ___?",
+      "options": ["24", "32", "40", "48"],
+      "answer": "32"
+    },
+    {
+      "id": 11,
+      "question": "What is the boiling point of water in Celsius?",
+      "options": ["100°C", "50°C", "0°C", "200°C"],
+      "answer": "100°C"
+    },
+    {
+      "id": 12,
+      "question": "What is the chemical formula for water?",
+      "options": ["H2O2", "CO2", "H2O", "CH4"],
+      "answer": "H2O"
+    },
+    {
+      "id": 13,
+      "question": "What is 25% of 200?",
+      "options": ["20", "40", "50", "60"],
+      "answer": "50"
+    },
+    {
+      "id": 14,
+      "question": "Which gas is most abundant in Earth's atmosphere?",
+      "options": ["Oxygen", "Nitrogen", "Carbon dioxide", "Hydrogen"],
+      "answer": "Nitrogen"
+    },
+    {
+      "id": 15,
+      "question": "Who wrote the novel 'To Kill a Mockingbird'?",
+      "options": ["Harper Lee", "Mark Twain", "Ernest Hemingway", "George Orwell"],
+      "answer": "Harper Lee"
+    },
+    {
+      "id": 16,
+      "question": "If a train travels at 60 miles per hour, how far will it travel in 2.5 hours?",
+      "options": ["140 miles", "150 miles", "160 miles", "170 miles"],
+      "answer": "150 miles"
+    },
+    {
+      "id": 17,
+      "question": "What is the result of 7 × 8 ÷ 2?",
+      "options": ["24", "28", "32", "36"],
+      "answer": "28"
+    },
+    {
+      "id": 18,
+      "question": "Which planet is known as the Red Planet?",
+      "options": ["Venus", "Mars", "Jupiter", "Saturn"],
+      "answer": "Mars"
+    },
+    {
+      "id": 19,
+      "question": "What is the chemical symbol for sodium?",
+      "options": ["Na", "Nb", "Ni", "Np"],
+      "answer": "Na"
+    },
+    {
+      "id": 20,
+      "question": "What is the speed of light in a vacuum?",
+      "options": ["300,000 km/s", "250,000 km/s", "400,000 km/s", "200,000 km/s"],
+      "answer": "300,000 km/s"
+    },
+    {
+      "id": 21,
+      "question": "What is the largest ocean on Earth?",
+      "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+      "answer": "Pacific Ocean"
+    },
+    {
+      "id": 22,
+      "question": "Which country is famous for producing maple syrup?",
+      "options": ["Canada", "Russia", "Sweden", "Norway"],
+      "answer": "Canada"
+    },
+    {
+      "id": 23,
+      "question": "What is the square root of 169?",
+      "options": ["10", "12", "13", "14"],
+      "answer": "13"
+    },
+    {
+      "id": 24,
+      "question": "If all roses are flowers and some flowers fade quickly, are all roses flowers that fade quickly?",
+      "options": ["True", "False", "Uncertain", "Partially true"],
+      "answer": "Uncertain"
+    },
+    {
+      "id": 25,
+      "question": "Which shape is missing in the sequence: circle, square, triangle, ___?",
+      "options": ["Rectangle", "Pentagon", "Hexagon", "Octagon"],
+      "answer": "Rectangle"
+    },
+    {
+      "id": 26,
+      "question": "If there are 24 students in a class and 40% are girls, how many boys are there?",
+      "options": ["12", "14", "16", "18"],
+      "answer": "14"
+    },
+    {
+      "id": 27,
+      "question": "Identify the next shape in the series: square, circle, triangle, square, ___?",
+      "options": ["Circle", "Square", "Triangle", "Oval"],
+      "answer": "Circle"
+    },
+    {
+      "id": 28,
+      "question": "What is the next symbol in the pattern: +, -, ×, ___?",
+      "options": ["/", "^", "=", "%"],
+      "answer": "/"
+    },
+    {
+      "id": 29,
+      "question": "If a store sells an item for $75 and makes a profit of 25%, what is the cost price of the item?",
+      "options": ["$50", "$55", "$60", "$65"],
+      "answer": "$60"
+    },
+    {
+      "id": 30,
+      "question": "If no birds can swim and all penguins are birds, can penguins swim?",
+      "options": ["True", "False", "Uncertain", "Partially true"],
+      "answer": "False"
+    },
+    {
+      "id": 31,
+      "question": "If all mammals have hair, but not all animals with hair are mammals. Which statement is true based on these facts?",
+      "options": ["All animals with hair are mammals", "Some animals with hair are mammals", "No animals with hair are mammals", "None of the above"],
+      "answer": "Some animals with hair are mammals"
+    },
+    {
+      "id": 32,
+      "question": "What letter comes next in the sequence: A, B, C, E, ___?",
+      "options": ["F", "G", "H", "D"],
+      "answer": "D"
+    },
+    {
+      "id": 33,
+      "question": "Which image is the mirror reflection of the given image?",
+      "options": ["(image A)", "(image B)", "(image C)", "(image D)"],
+      "answer": "(image C)"
+    },
+    {
+      "id": 34,
+      "question": "Which pattern completes the sequence: red, blue, red, blue, ___?",
+      "options": ["Yellow", "Green", "Purple", "Orange"],
+      "answer": "Red"
+    },
+    {
+      "id": 35,
+      "question": "What is the average of 10, 15, and 20?",
+      "options": ["12", "15", "17", "20"],
+      "answer": "15"
+    },
+    {
+      "id": 36,
+      "question": "What is the chemical formula for carbon dioxide?",
+      "options": ["CO2", "CO", "O2", "C2O"],
+      "answer": "CO2"
+    },
+    {
+      "id": 37,
+      "question": "What is the next number in the sequence: 1, 4, 9, 16, ___?",
+      "options": ["25", "36", "49", "64"],
+      "answer": "25"
+    },
+    {
+      "id": 38,
+      "question": "Which pattern completes the sequence: *, #, $, ___?",
+      "options": ["@", "!", "&", "^"],
+      "answer": "@"
+    },
+    {
+      "id": 39,
+      "question": "Which planet is closest to the Sun?",
+      "options": ["Earth", "Venus", "Mercury", "Mars"],
+      "answer": "Mercury"
+    },
+    {
+      "id": 40,
+      "question": "What comes next in the sequence: 1, 4, 9, 16, ___?",
+      "options": ["25", "36", "49", "64"],
+      "answer": "25"
+    },
+    {
+      "id": 41,
+      "question": "Identify the next shape in the series: square, circle, triangle, square, ___?",
+      "options": ["Circle", "Square", "Triangle", "Oval"],
+      "answer": "Circle"
+    },
+    {
+      "id": 42,
+      "question": "Which pattern completes the sequence: ABB, CDD, EGG, ___?",
+      "options": ["HHH", "FFF", "IJJ", "III"],
+      "answer": "III"
+    },
+    {
+      "id": 43,
+      "question": "Identify the next symbol in the series: +, ×, ÷, +, ___?",
+      "options": ["-", "×", "=", "%"],
+      "answer": "-"
+    },
+    {
+      "id": 44,
+      "question": "What comes next in the sequence: 2, 6, 12, 20, ___?",
+      "options": ["28", "30", "32", "34"],
+      "answer": "30"
+    },
+    {
+      "id": 45,
+      "question": "Identify the next shape in the series: triangle, square, circle, triangle, ___?",
+      "options": ["Square", "Circle", "Triangle", "Oval"],
+      "answer": "Square"
+    },
+    {
+      "id": 46,
+      "question": "Which pattern completes the sequence: AB, CD, EF, ___?",
+      "options": ["GH", "IJ", "KL", "MN"],
+      "answer": "GH"
+    },
+    {
+      "id": 47,
+      "question": "Identify the next symbol in the series: %, $, #, %, ___?",
+      "options": ["^", "&", "*", "@"],
+      "answer": "^"
+    },
+    {
+      "id": 48,
+      "question": "What comes next in the sequence: 3, 8, 15, 24, ___?",
+      "options": ["35", "40", "45", "50"],
+      "answer": "35"
+    },
+    {
+      "id": 49,
+      "question": "Identify the next shape in the series: circle, square, triangle, circle, ___?",
+      "options": ["Square", "Triangle", "Circle", "Oval"],
+      "answer": "Triangle"
+    },
+    {
+      "id": 50,
+      "question": "Which pattern completes the sequence: ABA, CDC, EFE, ___?",
+      "options": ["GEG", "FGF", "GHG", "HIH"],
+      "answer": "GEG"
+    },
+    {
+      "id": 51,
+      "question": "A car travels 400 kilometers in 8 hours. What is its average speed in kilometers per hour?",
+      "options": ["45 km/h", "50 km/h", "55 km/h", "60 km/h"],
+      "answer": "50 km/h"
+    },
+    {
+      "id": 52,
+      "question": "If a store sells an item for $75 and makes a profit of 25%, what is the cost price of the item?",
+      "options": ["$50", "$55", "$60", "$65"],
+      "answer": "$60"
+    },
+    {
+      "id": 53,
+      "question": "If there are 24 students in a class and 40% are girls, how many boys are there?",
+      "options": ["12", "14", "16", "18"],
+      "answer": "14"
+    },
+    {
+      "id": 54,
+      "question": "A recipe calls for 3 cups of flour to make 12 muffins. How many cups of flour are needed to make 24 muffins?",
+      "options": ["4", "6", "8", "10"],
+      "answer": "6"
+    },
+    {
+      "id": 55,
+      "question": "If John earns $500 per week and saves 20% of his earnings, how much does he save each week?",
+      "options": ["$80", "$100", "$120", "$150"],
+      "answer": "$100"
+    },
+    {
+      "id": 56,
+      "question": "A rectangle has a length of 12 cm and a width of 8 cm. What is its area in square centimeters?",
+      "options": ["80 sq cm", "90 sq cm", "100 sq cm", "110 sq cm"],
+      "answer": "96 sq cm"
+    },
+    {
+      "id": 57,
+      "question": "If a box contains 24 chocolates and 25% of them are dark chocolates, how many dark chocolates are there?",
+      "options": ["4", "6", "8", "10"],
+      "answer": "6"
+    },
+    {
+      "id": 58,
+      "question": "A marathon runner runs 42 kilometers in 3 hours. What is the runner's average speed in kilometers per hour?",
+      "options": ["12 km/h", "13 km/h", "14 km/h", "15 km/h"],
+      "answer": "14 km/h"
+    },
+    {
+      "id": 59,
+      "question": "If a book costs $20 and is discounted by 25%, what is the discounted price?",
+      "options": ["$12.50", "$14.50", "$15.50", "$16.50"],
+      "answer": "$15.00"
+    },
+    {
+      "id": 60,
+      "question": "If a square has a perimeter of 24 cm, what is the length of one side?",
+      "options": ["4 cm", "5 cm", "6 cm", "8 cm"],
+      "answer": "6 cm"
+    }
+  ]
+  
