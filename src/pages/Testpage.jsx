@@ -2,6 +2,8 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import SingleQuestion from '../components/SingleQuestion'
 import "./Testpage.css"
+import Button from '../components/Button'
+import SubmitForm from '../components/SubmitForm'
 
 const Testpage = ({randomQuestions,totalpoint,setTotalpoint}) => {
   return (
@@ -15,6 +17,13 @@ const Testpage = ({randomQuestions,totalpoint,setTotalpoint}) => {
     </div>
    ))}
    </ol>
+
+   <h2>
+    Please enter your fullname and email to get your result for free
+   </h2>
+
+   <SubmitForm totalpoint={totalpoint}/>
+
     </div>
   )
 }

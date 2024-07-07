@@ -1,7 +1,15 @@
 import React, { useState } from "react";
 import "./SingleQuestion.css";
+
+import emailjs from "emailjs-com"
+
 const SingleQuestion = ({ item, totalpoint, setTotalpoint }) => {
   const [disable, setDisable] = useState(false);
+
+  const FormComponent =()=>{
+    
+  }
+
   const handleAnswer = (e) => {
     const asnwer = e.target.value;
     if (asnwer == item.answer) {

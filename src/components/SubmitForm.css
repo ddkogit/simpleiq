@@ -1,0 +1,22 @@
+.submitform{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow: 0 4px 4px gray;
+    align-items: flex-start;
+}
+.forminput{
+
+padding: 10px;
+border-radius: 10px;
+border: none;
+width: 50%;
+background-color: rgb(232, 232, 240);
+margin-bottom: 5px;
+font-size: 1.2rem;
+}
+.terms{
+    color: gray;
+    font-size: .8rem;
+}
