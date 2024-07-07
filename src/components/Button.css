@@ -5,6 +5,7 @@
     color: white;
     background-color: white;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .secondary{
@@ -19,10 +20,10 @@
 }
 
 .primary:hover{
-    background-color: var(--green);
+    background-color: black;
 }
 .secondary:hover{
-    background-color: var(--green);
+    background-color: black;
     color: white;
     border: none;
 }
